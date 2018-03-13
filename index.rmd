@@ -1,0 +1,17 @@
+--- 
+title: "Phylogenetic notebook"
+author: "Guangchuang Yu"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+description: "进化学习笔记"
+---
+
+
+# 前言
+
+做为学习笔记，资料基本上来源于网络或者书本，只是自己整理和总结而已。
