@@ -84,7 +84,7 @@ $D = -\frac{3}{4} \times \frac{3}{8}ln(1 - \frac{4}{3}d) = -\frac{9}{32} ln(1 - 
 上面这一版本看上去更加「准确」，然而实际上和我们最常看到的版本有什么差别吗？差别只是scale，只不过是乘以不同的常数而已，所以在我们比较不同序列的时候，完全是没有影响的。我们想要的不同直接去估计在某个时间段里发生突变的实际数字，而是一个距离的度量可以正比例于突变概率和时间，线性相关才是最重要的，至于斜率多大，反而是其次。
 
 
-## Reference
+### Reference
 
 + <http://treethinkers.org/jukes-cantor-model-of-dna-substitution/>
 + <http://www.montefiore.ulg.ac.be/~kvansteen/GBIO0009-1/ac20132014/T4/jc.pdf>

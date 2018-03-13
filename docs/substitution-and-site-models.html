@@ -64,8 +64,9 @@
 <ul class="summary">
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 前言</a></li>
 <li class="chapter" data-level="2" data-path="substitution-and-site-models.html"><a href="substitution-and-site-models.html"><i class="fa fa-check"></i><b>2</b> Substitution and site models</a><ul>
-<li class="chapter" data-level="2.1" data-path="substitution-and-site-models.html"><a href="substitution-and-site-models.html#jukes-cantor-model"><i class="fa fa-check"></i><b>2.1</b> Jukes-Cantor Model</a></li>
-<li class="chapter" data-level="2.2" data-path="substitution-and-site-models.html"><a href="substitution-and-site-models.html#reference"><i class="fa fa-check"></i><b>2.2</b> Reference</a></li>
+<li class="chapter" data-level="2.1" data-path="substitution-and-site-models.html"><a href="substitution-and-site-models.html#jukes-cantor-model"><i class="fa fa-check"></i><b>2.1</b> Jukes-Cantor Model</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="substitution-and-site-models.html"><a href="substitution-and-site-models.html#reference"><i class="fa fa-check"></i><b>2.1.1</b> Reference</a></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -140,14 +141,14 @@
 <p>这个版本就是最为常见的版本，在这个推导过程中，我们允许了「突变」可以变成自身的状态，这实际上是不符合突变的定义的。所以实际是我们应该只计算突变为不同状态，那么我们应该乘以3/4，以<span class="math inline">\(\mu/3\)</span>为突变概率，使用2倍时间校正的情况下：</p>
 <p><span class="math inline">\(D = -\frac{3}{4} \times \frac{3}{8}ln(1 - \frac{4}{3}d) = -\frac{9}{32} ln(1 - \frac{4}{3}d)\)</span></p>
 <p>上面这一版本看上去更加「准确」，然而实际上和我们最常看到的版本有什么差别吗？差别只是scale，只不过是乘以不同的常数而已，所以在我们比较不同序列的时候，完全是没有影响的。我们想要的不同直接去估计在某个时间段里发生突变的实际数字，而是一个距离的度量可以正比例于突变概率和时间，线性相关才是最重要的，至于斜率多大，反而是其次。</p>
-</div>
-<div id="reference" class="section level2">
-<h2><span class="header-section-number">2.2</span> Reference</h2>
+<div id="reference" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Reference</h3>
 <ul>
 <li><a href="http://treethinkers.org/jukes-cantor-model-of-dna-substitution/" class="uri">http://treethinkers.org/jukes-cantor-model-of-dna-substitution/</a></li>
 <li><a href="http://www.montefiore.ulg.ac.be/~kvansteen/GBIO0009-1/ac20132014/T4/jc.pdf" class="uri">http://www.montefiore.ulg.ac.be/~kvansteen/GBIO0009-1/ac20132014/T4/jc.pdf</a></li>
 </ul>
 
+</div>
 </div>
 </div>
             </section>
